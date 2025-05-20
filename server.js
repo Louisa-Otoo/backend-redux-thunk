@@ -17,6 +17,10 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(ticketRoute);
 
+// Add this route to respond to root URL
+app.get('/', (req, res) => {
+    res.send('API is running...');
+});
 
 
 app.listen(PORT, () => {
