@@ -4,7 +4,7 @@ import ticketController from '../controller/ticketController.js'
 const router = express.Router();
 
 
-router.get('/', ticketController.allTickets);
+router.get('/api/tickets', ticketController.allTickets);
 
 router.post('/api/ticket', ticketController.addTicket);
 
