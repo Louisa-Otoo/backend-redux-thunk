@@ -15,13 +15,14 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json());
-app.use(ticketRoute);
+// app.use(ticketRoute);
 
-// Add this route to respond to root URL
+// Root route
 app.get('/', (req, res) => {
     res.send('API is running...');
 });
 
+app.use(ticketRoute);
 
 app.listen(PORT, () => {
     connectDB()
