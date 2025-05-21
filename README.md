@@ -27,8 +27,8 @@ This is the backend server for a productivity application that provides ticketin
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-git clone https://github.com/Louisa-Otoo/backend-redux-thunk.git and 
-cd backend-redux-thunk
+- git clone https://github.com/Louisa-Otoo/backend-redux-thunk.git
+- cd backend-redux-thunk
 
 ### 2. Install Dependencies
 npm install
@@ -47,7 +47,7 @@ Server should run on: http://localhost:5000
 - ## Method,	Endpoint,	Description
 - GET,	/api/tickets,	Gets all tickets
 - POST,	/api/ticket,	Creates a new ticket
-- PUT,	/api/tickets/:i,d	Updates a ticket
+- PUT,	/api/tickets/:id,	Updates a ticket
 - DELETE,	/api/ticket/:id,	Deletes a ticket
 
 ## 🔄 Frontend Integration
