@@ -44,11 +44,11 @@ npm run dev
 Server should run on: http://localhost:5000
 
 ## 🔐 API Endpoints
-- ## Method	Endpoint	Description	Auth Required
-- GET	/api/tickets	Get all tickets	No
-- POST	/api/ticket	Create a new ticket	No
-- PUT	/api/tickets/:id	Update a ticket	No
-- DELETE	/api/ticket/:id	Delete a ticket	No
+- ## Method,	Endpoint,	Description
+- GET,	/api/tickets,	Gets all tickets
+- POST,	/api/ticket,	Creates a new ticket
+- PUT,	/api/tickets/:i,d	Updates a ticket
+- DELETE,	/api/ticket/:id,	Deletes a ticket
 
 ## 🔄 Frontend Integration
 This backend is built to connect with a React frontend that uses Redux and Redux Thunk for state management. The frontend handles state persistence, and secure API calls.
