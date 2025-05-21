@@ -47,17 +47,13 @@ Server should run on: http://localhost:5000
 
 🔐 API Endpoints (Sample)
 Method	Endpoint	Description	Auth Required
-POST	/api/users	Register new user	No
-POST	/api/users/login	Login user	No
-GET	/api/notes	Get all notes/tickets	Yes
-POST	/api/notes	Create a new note	Yes
-PUT	/api/notes/:id	Update a note	Yes
-DELETE	/api/notes/:id	Delete a note	Yes
+GET	/api/tickets	Get all tickets	No
+POST	/api/ticket	Create a new ticket	No
+PUT	/api/tickets/:id	Update a ticket	No
+DELETE	/api/ticket/:id	Delete a ticket	No
 
 🔄 Frontend Integration
 This backend is built to connect with a React frontend that uses Redux and Redux Thunk for state management. The frontend handles state persistence, and secure API calls.
 
 📌 Notes
-Built for educational purposes and personal productivity experimentation
-
 Easily adaptable for journaling apps, ticketing systems, or note-taking tools.
