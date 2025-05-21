@@ -27,8 +27,8 @@ This is the backend server for a productivity application that provides ticketin
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-- git clone https://github.com/Louisa-Otoo/backend-redux-thunk.git
-- cd backend-redux-thunk
+-- git clone https://github.com/Louisa-Otoo/backend-redux-thunk.git
+-- cd backend-redux-thunk
 
 ### 2. Install Dependencies
 npm install
