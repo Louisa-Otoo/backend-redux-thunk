@@ -27,25 +27,23 @@ This is the backend server for a productivity application that provides ticketin
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/Louisa-Otoo/backend-redux-thunk.git
 cd backend-redux-thunk
 
-2. Install Dependencies
+### 2. Install Dependencies
 npm install
 
-3. Set Up Environment Variables
+### 3. Set Up Environment Variables
 Create a .env file in the root directory and add:
 
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 
-4. Start the Server
+### 4. Start the Server
 npm run dev
 Server should run on: http://localhost:5000
 
-🔐 API Endpoints (Sample)
+## 🔐 API Endpoints
 Method	Endpoint	Description	Auth Required
 GET	/api/tickets	Get all tickets	No
 POST	/api/ticket	Create a new ticket	No
