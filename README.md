@@ -24,6 +24,11 @@ This is the backend server for a productivity application that provides ticketin
 
 ---
 
+## Demo 
+[View Backend Here](https://backend-with-redux-thunk.onrender.com) 
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository 
